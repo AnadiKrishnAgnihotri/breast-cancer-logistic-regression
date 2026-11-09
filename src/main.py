@@ -31,7 +31,7 @@ model = LogisticRegression()
 model.fit(X_train_scaled, y_train)
 
 y_probs = model.predict_proba(X_test_scaled)[:, 1]
-# Sigmoid probability distribution curve
+
 sorted_probs = np.sort(y_probs)
 
 
@@ -41,9 +41,10 @@ plt.title('Predicted Probabilities (Test Set)')
 plt.xlabel('Sorted Samples')
 plt.ylabel('Probability of Class 1 (Malignant)')
 plt.legend()
+plt.show()
 
 weights = pd.Series(model.coef_[0], index=X.columns).sort_values()
-# Coefficients of different features used in training
+
 
 weights.plot(kind='barh', color=np.where(weights > 0, 'green', 'red'))
 plt.title('Feature Importance (Logistic Regression Coefficients)')
