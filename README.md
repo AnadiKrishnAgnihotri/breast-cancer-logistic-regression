@@ -8,7 +8,7 @@ Classifies breast biopsy tumors as benign or malignant using Logistic Regression
 
 | Member | Entry no. | Role | GitHub Handle |
 | :--- | :--- | :--- | :--- |
-| ANADI KRISHN AGNIHOTRI | 2026AIB1009 | Documentation lead | `@AnadiKrishnAgnihotri' |
+| ANADI KRISHN AGNIHOTRI | 2026AIB1009 | Documentation lead | `@AnadiKrishAgnihotri` |
 | ABHIMANYU SHARMA | 2026EEB1314 | Execution lead | `@AbhimanyuSharma420` |
 | SHREYA SANDIP UMAVANE | 2026MCB1570 | Video lead | `@WaterNymph37` |
 | NELAPATI YADIDYA ROY | 2026ESB1483| PPT lead | `@yadidya-roy09` |
