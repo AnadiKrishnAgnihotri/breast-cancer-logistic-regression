@@ -127,65 +127,40 @@ breast-cancer-logistic-regression/
 
 The required packages and their versions are listed in `requirements.txt`.
 
-### Run on Windows
-
-Open PowerShell in the directory where you want to download the project and run:
-
+## Setup
+Tested on Python 3.14(Windows,Macos)
+**1. Clone the repository**
 ```bash
-git clone https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git
+git clone https://github.com/Anurag0916/AI101_MIni_Project.git
+cd AI101_MIni_Project
+```
 
-cd breast-cancer-logistic-regression
+**2. Create and activate a virtual environment**
 
+Windows:
+```bash
 python -m venv venv
-
 venv\Scripts\activate
-
-pip install -r requirements.txt
-
-python -m src.main
 ```
 
-### Run on Linux
-
-Open the terminal and run:
-
+macOS / Linux:
 ```bash
-sudo apt update
-
-sudo apt install python3 python3-venv python3-pip git
-
-git clone https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git
-
-cd breast-cancer-logistic-regression
-
 python3 -m venv venv
-
 source venv/bin/activate
-
-pip install -r requirements.txt
-
-python -m src.main
 ```
 
-### Run on macOS
-
-Open the terminal and run:
-
+**3. Install the dependencies**
 ```bash
-git clone https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git
-
-cd breast-cancer-logistic-regression
-
-python3 -m venv venv
-
-source venv/bin/activate
-
-pip install -r requirements.txt
-
-python -m src.main
+python -m pip install -r requirements.txt
 ```
+## How to run
 
-Once the installation is complete, the main Python file executes the entire pipeline, including data preparation, exploratory data analysis, model training, evaluation and generation of output files.
+1. Start Jupyter from the project folder:
+   ```bash
+   jupyter notebook project.ipynb
+   ```
+2. In the notebook, choose **Kernel → Restart & Run All** (or press `Shift+Enter` through each cell in order).
+3. The notebook loads the dataset from `data/`, trains the linear regression model and prints the evaluation metrics and plots.
 
 ## What to expect
 
