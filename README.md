@@ -64,7 +64,7 @@ The project follows these steps:
 2. **Clean the data:** Remove unnecessary identifier columns, check for missing values and prepare the target labels.
 3. **Perform statistical analysis:** Calculate mean, standard deviation, variance, covariance and correlation to understand the distribution and relationships between features.
 4. **Visualize the data:** Generate a class distribution plot to understand the number of malignant and benign samples.
-5. **Split the dataset:** Divide the dataset into training and testing sets using an 80:20 split, with stratification to preserve the original class distribution.
+5. **Split the dataset:** Divide the dataset into training and testing sets using an 75:25 split, with stratification to preserve the original class distribution.
 6. **Scale the features:** Apply `StandardScaler` to normalize the feature values. The scaler is fitted only on the training data to prevent data leakage.
 7. **Implement Logistic Regression:** Calculate the weighted sum of input features and pass it through the sigmoid function to obtain predicted probabilities.
 
@@ -104,8 +104,8 @@ breast-cancer-logistic-regression/
 - `src/main.py` — Main entry point that executes the complete machine learning pipeline.
 - `src/data_prep.py` — Handles dataset loading, cleaning, stratified train-test splitting and feature scaling.
 - `src/eda.py` — Performs exploratory data analysis and calculates mean, standard deviation, variance, covariance and correlation. It also generates the class distribution plot.
-- `src/logistic_model.py` — Implements the sigmoid function and L-BFGS algorithm for Logistic Regression.
-- `src/evaluate_model.py` — Evaluates the model using accuracy, precision, recall, F1-score, RMSE and confusion matrix.
+- `src/logistic_model.py` — Implements the sigmoid function  algorithm for Logistic Regression.
+- `src/evaluate_model.py` — Evaluates the model using accuracy, precision, recall, F1-score and confusion matrix.
 - `outputs/class_distribution.png` — Visualization of the distribution of malignant and benign samples.
 - `outputs/loss_curve.png` — Shows how the training loss changes over successive iterations.
 - `outputs/sigmoid_curve.png` — Graphical representation of the sigmoid activation function.
@@ -204,7 +204,7 @@ The expected outputs include:
 - Precision, recall and F1-score.
 - Confusion matrix.
 
-The original dataset contains 569 samples and 30 numerical features. The training and testing sets are created using an 80:20 stratified split.
+The original dataset contains 569 samples and 30 numerical features. The training and testing sets are created using an 75:25 stratified split.
 
 The exact model performance values are generated when the program is executed. No fixed accuracy value is reported here because it should correspond to the actual output of the final implementation.
 
@@ -228,7 +228,7 @@ The project presentation and demonstration video are part of the final submissio
 
 ## Use of AI tools
 
-AI tools are used during different stages of the project workflow, including understanding Logistic Regression, debugging Python code, understanding statistical concepts, preparing documentation, and improving visualizations.
+AI tools are used during different stages of the project workflow, including understanding Logistic Regression, debugging Python code, understanding statistical concepts, preparing documentation,  improving visualizations for improvising the making of readme
 
 Gemini was used to create the code for the feature importance(coefficients) graph in logistics_model.py
 
