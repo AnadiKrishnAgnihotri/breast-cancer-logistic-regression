@@ -96,6 +96,7 @@ breast-cancer-logistic-regression/
 │   └── evaluate_model.py
 ├── requirements.txt
 └── README.md
+└── main.ipynb
 ```
 
 ### Description of important files
@@ -113,6 +114,7 @@ breast-cancer-logistic-regression/
 - `docs/presentation.pdf` — Five-slide presentation explaining the project, methodology and results.
 - `requirements.txt` — Contains the Python dependencies required to run the project.
 - `README.md` — Project documentation and instructions.
+- `main.ipynb` - For easier demonstration, this file would actually execute all the code so that everything can be seen easily.
 
 ## Getting started
 
@@ -131,8 +133,8 @@ The required packages and their versions are listed in `requirements.txt`.
 Tested on Python 3.14(Windows,Macos)
 **1. Clone the repository**
 ```bash
-git clone https://github.com/Anurag0916/AI101_MIni_Project.git
-cd AI101_MIni_Project
+git clone https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git
+cd breast-cancer-logistic-regression
 ```
 
 **2. Create and activate a virtual environment**
@@ -157,10 +159,10 @@ python -m pip install -r requirements.txt
 
 1. Start Jupyter from the project folder:
    ```bash
-   jupyter notebook project.ipynb
+   jupyter notebook main.ipynb
    ```
 2. In the notebook, choose **Kernel → Restart & Run All** (or press `Shift+Enter` through each cell in order).
-3. The notebook loads the dataset from `data/`, trains the linear regression model and prints the evaluation metrics and plots.
+3. The notebook loads the dataset from `data/`, trains the model and prints the evaluation metrics and plots.
 
 ## What to expect
 
@@ -182,15 +184,6 @@ The expected outputs include:
 The original dataset contains 569 samples and 30 numerical features. The training and testing sets are created using an 75:25 stratified split.
 
 The exact model performance values are generated when the program is executed. No fixed accuracy value is reported here because it should correspond to the actual output of the final implementation.
-
-## Troubleshooting
-
-- **The CSV file cannot be found:** Ensure that `data.csv` is inside the `data` directory and that the program is executed from the project root directory.
-- **ModuleNotFoundError:** Activate the virtual environment and install the dependencies using `pip install -r requirements.txt`.
-- **Plots are not generated:** Check that the `outputs` directory exists and that the program has permission to save files.
-- **Incorrect dataset dimensions:** Verify that the correct Wisconsin Diagnostic Breast Cancer dataset has been downloaded.
-- **Model loss becomes unstable:** Check the learning rate and feature scaling settings used during Batch Gradient Descent.
-- **The program does not execute:** Make sure the project is run from the root directory using `python -m src.main`.
 
 ## Presentation and project video
 
