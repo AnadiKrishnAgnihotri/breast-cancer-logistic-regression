@@ -84,7 +84,7 @@ breast-cancer-logistic-regression/
 │   └── presentation.pdf
 ├── outputs/
 │   ├── class_distribution.png
-│   ├── loss_curve.png
+│   ├── confusion_matrix.png
 │   ├── sigmoid_curve.png
 │   └── summary_statistics.csv
 ├── src/
