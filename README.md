@@ -2,7 +2,7 @@
 
 This project classifies breast biopsy tumours as **benign or malignant** using Logistic Regression implemented from scratch with Python. It uses the Wisconsin Diagnostic Breast Cancer dataset and libraries such as `pandas`, `numpy`, `matplotlib` and `scikit-learn`.
 
-We first explore the dataset, analyse statistical relationships between cytological features, prepare the data and implement Logistic Regression using the Sigmoid function and L-BFGS algorithm. Finally, we evaluate the model using multiple classification metrics and visualizations.
+We first explore the dataset, analyse statistical relationships between cytological features, prepare the data and implement Logistic Regression using the Sigmoid function . Finally, we evaluate the model using classification metrics and visualizations.
 
 **AI101 Mini-Project · Group 23 · Python 3.10+**
 
@@ -28,7 +28,7 @@ The aim of this project is to analyse these features and develop a machine learn
 
 Since there are only two possible outcomes, this is a **binary classification** problem. We use Logistic Regression to estimate the probability of a tumour belonging to the malignant class.
 
-This project is intended for educational purposes and is not designed for clinical diagnosis or medical decision-making.
+
 
 ## Dataset
 
@@ -67,10 +67,10 @@ The project follows these steps:
 5. **Split the dataset:** Divide the dataset into training and testing sets using an 80:20 split, with stratification to preserve the original class distribution.
 6. **Scale the features:** Apply `StandardScaler` to normalize the feature values. The scaler is fitted only on the training data to prevent data leakage.
 7. **Implement Logistic Regression:** Calculate the weighted sum of input features and pass it through the sigmoid function to obtain predicted probabilities.
-8. **Calculate the loss:** Use Binary Cross-Entropy (Log Loss) to measure the difference between actual labels and predicted probabilities.
-9. **Train the model:** Apply Batch Gradient Descent to update model weights and bias iteratively to minimize the loss function.
-10. **Evaluate the model:** Calculate training and testing accuracy, precision, recall, F1-score and RMSE. Generate a confusion matrix to analyse classification performance.
-11. **Generate visualizations:** Plot the sigmoid curve and training loss curve to understand the model's behaviour and learning process.
+
+8. **Train the model:** 
+9. **Evaluate the model:** Calculate training and testing accuracy, precision, recall, F1-score and RMSE. Generate a confusion matrix to analyse classification performance.
+10. **Generate visualizations:** Plot the sigmoid curve to understand the model's behaviour and learning process.
 
 ## Project files
 
@@ -132,7 +132,7 @@ The required packages and their versions are listed in `requirements.txt`.
 Open PowerShell in the directory where you want to download the project and run:
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git>
 
 cd breast-cancer-logistic-regression
 
@@ -154,7 +154,7 @@ sudo apt update
 
 sudo apt install python3 python3-venv python3-pip git
 
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git>
 
 cd breast-cancer-logistic-regression
 
@@ -172,7 +172,7 @@ python -m src.main
 Open the terminal and run:
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git>
 
 cd breast-cancer-logistic-regression
 
@@ -199,10 +199,10 @@ The expected outputs include:
 - Malignant and benign class distribution.
 - Training and testing dataset split.
 - Sigmoid function visualization.
-- Binary Cross-Entropy loss curve.
+  
 - Training and testing accuracy.
 - Precision, recall and F1-score.
-- RMSE and confusion matrix.
+- Confusion matrix.
 
 The original dataset contains 569 samples and 30 numerical features. The training and testing sets are created using an 80:20 stratified split.
 
@@ -222,7 +222,7 @@ The exact model performance values are generated when the program is executed. N
 The project presentation and demonstration video are part of the final submission.
 
 - **Presentation:** `docs/presentation.pdf`
-- **GitHub Repository:** Add the project repository link here.
+- **GitHub Repository:** https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git.
 - **Project Video:** Add the video link here (Google Drive or YouTube).
 
 
