@@ -132,7 +132,7 @@ The required packages and their versions are listed in `requirements.txt`.
 Open PowerShell in the directory where you want to download the project and run:
 
 ```bash
-git clone <https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git>
+git clone https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git
 
 cd breast-cancer-logistic-regression
 
@@ -154,7 +154,7 @@ sudo apt update
 
 sudo apt install python3 python3-venv python3-pip git
 
-git clone <https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git>
+git clone https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git
 
 cd breast-cancer-logistic-regression
 
@@ -172,7 +172,7 @@ python -m src.main
 Open the terminal and run:
 
 ```bash
-git clone <https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git>
+git clone https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git
 
 cd breast-cancer-logistic-regression
 
