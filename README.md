@@ -186,7 +186,7 @@ The exact model performance values are generated when the program is executed. N
 
 The project presentation and demonstration video are part of the final submission.
 
-- **Presentation:** `docs/Breast_Cancer_Logistic_Regression_Redesigned.pdf`
+- **Presentation:** docs/Breast_Cancer_Logistic_Regression_Redesigned.pdf
 - **GitHub Repository:** https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git.
 - **Project Video:** Add the video link here (Google Drive or YouTube).
 
