@@ -122,7 +122,6 @@ breast-cancer-logistic-regression/
 - NumPy
 - pandas
 - Matplotlib
-- Seaborn (if used in the implementation)
 - scikit-learn
 
 The required packages and their versions are listed in `requirements.txt`.
