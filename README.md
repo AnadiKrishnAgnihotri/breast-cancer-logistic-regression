@@ -188,7 +188,7 @@ The project presentation and demonstration video are part of the final submissio
 
 - **Presentation:** [View 5-Slide Presentation PDF](https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression/blob/main/docs/Breast_Cancer_Logistic_Regression_Redesigned.pdf)
 - **GitHub Repository:** https://github.com/AnadiKrishnAgnihotri/breast-cancer-logistic-regression.git.
-- **Project Video:** Add the video link here (Google Drive or YouTube).
+- **Project Video:** https://drive.google.com/file/d/1JO3joQY__Sz5uNas8DRynikdbln_Rnxc/view?usp=drivesdk
 
 
 ## Use of AI tools
