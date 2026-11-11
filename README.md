@@ -108,9 +108,7 @@ breast-cancer-logistic-regression/
 - `src/logistic_model.py` — Implements the sigmoid function  algorithm for Logistic Regression.
 - `src/evaluate_model.py` — Evaluates the model using accuracy, precision, recall, F1-score and confusion matrix.
 - `outputs/class_distribution.png` — Visualization of the distribution of malignant and benign samples.
-- `outputs/loss_curve.png` — Shows how the training loss changes over successive iterations.
 - `outputs/sigmoid_curve.png` — Graphical representation of the sigmoid activation function.
-- `outputs/summary_statistics.csv` — Contains statistical summaries of the dataset features.
 - `docs/presentation.pdf` — Five-slide presentation explaining the project, methodology and results.
 - `requirements.txt` — Contains the Python dependencies required to run the project.
 - `README.md` — Project documentation and instructions.
